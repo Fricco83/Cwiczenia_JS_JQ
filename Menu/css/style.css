@@ -1,0 +1,23 @@
+ul {
+	padding: 0;
+}
+
+.nav ul {
+	list-style: none;
+	width: 100%;
+}
+
+.nav > ul > li {
+	display: inline-block;
+	position: relative;
+}
+
+.nav > ul > li > ul {
+	display: none;
+	position: absolute;
+	width: 300px;
+}
+
+.nav .visible > ul >li > ul {
+	display: inline-block;
+}
