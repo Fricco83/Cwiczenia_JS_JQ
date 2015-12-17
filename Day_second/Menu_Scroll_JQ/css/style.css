@@ -1,0 +1,28 @@
+div {
+	background-color: green;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	margin-bottom: 15px;
+}
+
+.nav {
+	background-color: lightgrey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
