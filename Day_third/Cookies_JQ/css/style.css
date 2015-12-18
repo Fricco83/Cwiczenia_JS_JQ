@@ -1,0 +1,14 @@
+.cookies {
+	width: 100%;
+	height: 50px;
+	border: 1px solid red;
+	background-color: lightgrey;
+}
+
+.close {
+	font-size: 2em;
+	color: red;
+	height: 50px;
+	float: right;
+	
+}
